@@ -1,6 +1,7 @@
 var util = require('util'),
-    keyboard = require('../jarsmith/keyboard'),
-    Scene = require('../jarsmith/scene');
+    Jarsmith = require('../jarsmith/lib/jarsmith'),
+    keyboard = Jarsmith.keyboard,
+    Scene = Jarsmith.Scene;
 
 var $;
 

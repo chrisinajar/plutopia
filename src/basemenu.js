@@ -1,6 +1,7 @@
 var util = require('util'),
-    Scene = require('../jarsmith/scene'),
-    keyboard = require('../jarsmith/keyboard');
+    Jarsmith = require('../jarsmith/lib/jarsmith'),
+    Scene = Jarsmith.Scene,
+    keyboard = Jarsmith.keyboard;
 
 var BaseMenu = function(engine, events) {
   Scene.apply(this, [engine, events]);

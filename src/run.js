@@ -1,4 +1,4 @@
-var Jarsmith = require('../jarsmith'),
+var Jarsmith = require('../jarsmith/lib/jarsmith'),
     Engine = Jarsmith.Engine;
 
 var width = 1024,
