@@ -4,6 +4,7 @@ git clone git://github.com/chrisinajar/plutopia.git
 cd plutopia
 git clone git://github.com/chrisinajar/node-ogl.git
 git clone git://github.com/chrisinajar/node-sdl.git
+git clone git://github.com/chrisinajar/jarsmith.git
 
 Expect these two steps to take a while to get working, compiling for node is a bitch.
 cd node-ogl
