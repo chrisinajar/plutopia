@@ -47,14 +47,17 @@ var Game = function(engine, events) {
 					height: 50
 				}, 100)
 				.animate({
+					rotation: 100,
 					top: obj.attr('top') + Math.random()*400-200,
 					left: obj.attr('left') + Math.random()*400-200
 				}, 1000)
 				.animate({
+					rotation: -180,
 					top: obj.attr('top') + Math.random()*500-250,
 					left: obj.attr('left') + Math.random()*500-250
 				}, Math.random()*5000+1000, "linear")
 				.animate({
+					rotation: 360,
 					top: obj.attr('top') + Math.random()*500-250,
 					left: obj.attr('left') + Math.random()*500-250
 				}, Math.random()*5000+1000, "linear")
